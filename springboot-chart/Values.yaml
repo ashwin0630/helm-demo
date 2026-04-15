@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: ashwin0630/springboot-demo
+  tag: latest
+
+service:
+  type: NodePort
+  port: 8080
